@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(159, 214, 251);
+    border: 10px solid black;
+}
+.main{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.img{
+    background-image: url("Dr.\ B.R.\ Ambe...jpg");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    
+}
+.top{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.content h3{
+    font-size: 25px;
+    text-align: end;
+}
+
+.about{
+    margin-top: 50px;
+}
+.about h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.about ul{
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: blue;
+}
+footer{
+    margin: 20px 0;
+    text-align: end;
+    margin-right: 10px;
+}
